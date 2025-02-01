@@ -68,15 +68,4 @@ The backend runs on **http://localhost:5000**
 ## API Routes
 - `GET /api/quiz` - Fetch quiz questions
 
-## Deployment
-For production, build the frontend:
-```sh
-cd frontend
-npm run build
-```
-Serve the backend with **PM2**:
-```sh
-npm install -g pm2
-pm2 start index.js
-```
 
